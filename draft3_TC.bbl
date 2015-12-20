@@ -1,66 +1,124 @@
-\begin{thebibliography}{7}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-\expandafter\ifx\csname bibnamefont\endcsname\relax
-  \def\bibnamefont#1{#1}\fi
-\expandafter\ifx\csname bibfnamefont\endcsname\relax
-  \def\bibfnamefont#1{#1}\fi
-\expandafter\ifx\csname citenamefont\endcsname\relax
-  \def\citenamefont#1{#1}\fi
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
-\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-\providecommand{\bibinfo}[2]{#2}
-\providecommand{\eprint}[2][]{\url{#2}}
-
-\bibitem[{\citenamefont{Israel}(1966)}]{Isr66}
-\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Israel}},
-  \bibinfo{journal}{Nuovo Cim.} \textbf{\bibinfo{volume}{B44S10}},
-  \bibinfo{pages}{1} (\bibinfo{year}{1966}).
-
-\bibitem[{\citenamefont{Bousso et~al.}(2008)\citenamefont{Bousso, Freivogel,
-  and Yang}}]{BouFre07}
-\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Bousso}},
-  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Freivogel}},
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{I.-S.} \bibnamefont{Yang}},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D77}},
-  \bibinfo{pages}{103514} (\bibinfo{year}{2008}), \eprint{0712.3324}.
-
-\bibitem[{\citenamefont{Johnson and Yang}(2010)}]{JohYan10}
-\bibinfo{author}{\bibfnamefont{M.~C.} \bibnamefont{Johnson}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{I.-S.} \bibnamefont{Yang}},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D82}},
-  \bibinfo{pages}{065023} (\bibinfo{year}{2010}), \eprint{1005.3506}.
-
-\bibitem[{\citenamefont{Misner et~al.}(1973)\citenamefont{Misner, Thorne, and
-  Wheeler}}]{MTW}
-\bibinfo{author}{\bibfnamefont{C.~W.} \bibnamefont{Misner}},
-  \bibinfo{author}{\bibfnamefont{K.~S.} \bibnamefont{Thorne}},
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{J.~A.}
-  \bibnamefont{Wheeler}}, \emph{\bibinfo{title}{Gravitation}}
-  (\bibinfo{publisher}{Freeman}, \bibinfo{address}{New York},
-  \bibinfo{year}{1973}).
-
-\bibitem[{\citenamefont{Shannon et~al.}(2015)}]{PulsarTiming}
-\bibinfo{author}{\bibfnamefont{R.~M.} \bibnamefont{Shannon}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Science}
-  \textbf{\bibinfo{volume}{349}}, \bibinfo{pages}{1522} (\bibinfo{year}{2015}),
-  \eprint{1509.07320}.
-
-\bibitem[{\citenamefont{{Smits, R.} et~al.}(2009)\citenamefont{{Smits, R.},
-  {Kramer, M.}, {Stappers, B.}, {Lorimer, D. R.}, {Cordes, J.}, and {Faulkner,
-  A.}}}]{SKA}
-\bibinfo{author}{\bibnamefont{{Smits, R.}}},
-  \bibinfo{author}{\bibnamefont{{Kramer, M.}}},
-  \bibinfo{author}{\bibnamefont{{Stappers, B.}}},
-  \bibinfo{author}{\bibnamefont{{Lorimer, D. R.}}},
-  \bibinfo{author}{\bibnamefont{{Cordes, J.}}}, \bibnamefont{and}
-  \bibinfo{author}{\bibnamefont{{Faulkner, A.}}}, \bibinfo{journal}{Astronomy
-  and Astrophysics} \textbf{\bibinfo{volume}{493}}, \bibinfo{pages}{1161}
-  (\bibinfo{year}{2009}).
-
-\bibitem[{\citenamefont{Diehl et~al.}(2006)}]{SNrate06}
-\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Diehl}} \bibnamefont{et~al.},
-  \bibinfo{journal}{Nature} \textbf{\bibinfo{volume}{439}}, \bibinfo{pages}{45}
-  (\bibinfo{year}{2006}), \eprint{astro-ph/0601015}.
-
-\end{thebibliography}
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{7}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Israel}(1966)}]{Isr66}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Israel}},\ }\href {\doibase 10.1007/BF02730328} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nuovo Cim.}\ }\textbf {\bibinfo {volume} {B44S10}},\
+  \bibinfo {pages} {1} (\bibinfo {year} {1966})}\BibitemShut {NoStop}%
+%%CITATION = NUCIA,B44S10,1;%%
+\bibitem [{\citenamefont {Bousso}\ \emph {et~al.}(2008)\citenamefont {Bousso},
+  \citenamefont {Freivogel},\ and\ \citenamefont {Yang}}]{BouFre07}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Bousso}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Freivogel}}, \
+  and\ \bibinfo {author} {\bibfnamefont {I.-S.}\ \bibnamefont {Yang}},\ }\href
+  {\doibase 10.1103/PhysRevD.77.103514} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D77}},\ \bibinfo {pages}
+  {103514} (\bibinfo {year} {2008})},\ \Eprint {http://arxiv.org/abs/0712.3324}
+  {arXiv:0712.3324 [hep-th]} \BibitemShut {NoStop}%
+%%CITATION = 0712.3324;%%
+\bibitem [{\citenamefont {Johnson}\ and\ \citenamefont
+  {Yang}(2010)}]{JohYan10}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont
+  {Johnson}}\ and\ \bibinfo {author} {\bibfnamefont {I.-S.}\ \bibnamefont
+  {Yang}},\ }\href {\doibase 10.1103/PhysRevD.82.065023} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D82}},\
+  \bibinfo {pages} {065023} (\bibinfo {year} {2010})},\ \Eprint
+  {http://arxiv.org/abs/1005.3506} {arXiv:1005.3506 [hep-th]} \BibitemShut
+  {NoStop}%
+%%CITATION = 1005.3506;%%
+\bibitem [{\citenamefont {Misner}\ \emph {et~al.}(1973)\citenamefont {Misner},
+  \citenamefont {Thorne},\ and\ \citenamefont {Wheeler}}]{MTW}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~W.}\ \bibnamefont
+  {Misner}}, \bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont {Thorne}},
+  \ and\ \bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont {Wheeler}},\
+  }\href@noop {} {\emph {\bibinfo {title} {Gravitation}}}\ (\bibinfo
+  {publisher} {Freeman},\ \bibinfo {address} {New York},\ \bibinfo {year}
+  {1973})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Shannon}\ \emph {et~al.}(2015)\citenamefont {Shannon}
+  \emph {et~al.}}]{PulsarTiming}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont
+  {Shannon}} \emph {et~al.},\ }\href {\doibase 10.1126/science.aab1910}
+  {\bibfield  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo
+  {volume} {349}},\ \bibinfo {pages} {1522} (\bibinfo {year} {2015})},\ \Eprint
+  {http://arxiv.org/abs/1509.07320} {arXiv:1509.07320 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1509.07320;%%
+\bibitem [{\citenamefont {{Smits, R.}}\ \emph {et~al.}(2009)\citenamefont
+  {{Smits, R.}}, \citenamefont {{Kramer, M.}}, \citenamefont {{Stappers, B.}},
+  \citenamefont {{Lorimer, D. R.}}, \citenamefont {{Cordes, J.}},\ and\
+  \citenamefont {{Faulkner, A.}}}]{SKA}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{Smits, R.}}}, \bibinfo
+  {author} {\bibnamefont {{Kramer, M.}}}, \bibinfo {author} {\bibnamefont
+  {{Stappers, B.}}}, \bibinfo {author} {\bibnamefont {{Lorimer, D. R.}}},
+  \bibinfo {author} {\bibnamefont {{Cordes, J.}}}, \ and\ \bibinfo {author}
+  {\bibnamefont {{Faulkner, A.}}},\ }\href {\doibase
+  10.1051/0004-6361:200810383} {\bibfield  {journal} {\bibinfo  {journal}
+  {Astronomy and Astrophysics}\ }\textbf {\bibinfo {volume} {493}},\ \bibinfo
+  {pages} {1161} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Diehl}\ \emph {et~al.}(2006)\citenamefont {Diehl}
+  \emph {et~al.}}]{SNrate06}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Diehl}} \emph {et~al.},\ }\href {\doibase 10.1038/nature04364} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {439}},\
+  \bibinfo {pages} {45} (\bibinfo {year} {2006})},\ \Eprint
+  {http://arxiv.org/abs/astro-ph/0601015} {arXiv:astro-ph/0601015 [astro-ph]}
+  \BibitemShut {NoStop}%
+%%CITATION = ASTRO-PH/0601015;%%
+\end{thebibliography}%
