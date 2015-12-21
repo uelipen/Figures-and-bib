@@ -29,7 +29,7 @@
 \affiliation{Perimeter Institute of Theoretical Physics, 31 Caroline Street North, Waterloo, ON N2L 2Y5, Canada.}
 
 \begin{abstract}
-We show that when a supernova explodes, a nearby pulsar goes through two changes in the time-derivative of its period. A stable, millisecond pulsar can allow us to measure such effect. This may improve our measurement on the total energy released in neutrinos and also the actual orientation of the supernova-pulsar system.
+We show that when a supernova explodes, a nearby pulsar goes through two changes in the time-derivative of its period. A stable, millisecond pulsar can allow us to measure such effect. This may improve our measurement on the total energy released in neutrinos and also the actual orientation of the supernova-pulsar system. A joint timing of a few pulsars can even triangulate the location of a hidden supernova.
 \end{abstract}
 
 \maketitle
@@ -200,11 +200,9 @@ Interestingly, there is no $\theta$ dependence here.
 \section{Observational Practicality}
 \label{sec-obs}
 
-The observed value of $(\dot{w_e}/w_e)$ cannot be exactly what we calculated, because in practice, there are many other contributions to the acceleration. For example, the SN and the pulsar can belong to a particular spiral arm in our galaxy that has an overall relative acceleration with respect to us. However, if the pulsar is close enough to the SN, then we can be pretty certain that in the time scale comparable to $\Delta t$, the SN is the dominant cause of acceleration change. % Afterall, there are rarely any event more violent than a nearby SN explosion. And if there is, we probably would have noticed.
+The observed value of $(\dot{w_e}/w_e)$ cannot be exactly what we calculated, because in practice, there are many other contributions to the acceleration. For example, they cna be both in the galaxy center which has a relative acceleration to our spiral arm. However, if the pulsar is close enough to the SN, then we can be pretty certain that in the time scale comparable to $\Delta t$, the SN is the dominant cause of acceleration change. % Afterall, there are rarely any event more violent than a nearby SN explosion. And if there is, we probably would have noticed.
 
-At the instant the SNe is detected at earth, for example from direct neutrino detection, one either needs a distance measurement, or uses the pulsar timing effect to infer a distance.   All pulsar timing periodic derivatives change, proportionate to their distance to the SN.  The effect receives equal logarthmic contributions in detectability as a distance of the pulsar from the SN: in a disk population, the number of pulsars increases as the square of the distance from the SN, the effect decreases as the distance, and the sensitivity increases with the square root of the number of pulsars.  Pulsars near the line of sight will increasingly show the second acceleration change, the soonest typically after a year, for the pulsar one galactic scale length from the SN along our line of sight.  THe timing impact will be weak due to its distance from the SN, and waiting for a decade increases both the acceleration sensitivity due to the longer time baseline, and increases the likelihood of finding a pulsar closer to the SNe. 
-
-That means, if we observe three different values of $(\dot{w_e}/w_e)$ in the three stages, we can subtract the value in the first stage and get two independent data corresponding to our calculation.
+That means, if we observe three different values of $(\dot{w_e}/w_e)$ in the three stages, we can subtract the value in the first stage and get two independent data corresponding to the effect we calculated.
 \begin{center}
 \begin{tabular}{| c | c | c |} 
 \hline
@@ -215,16 +213,19 @@ $\Delta(\dot{w_e}/w_e)$ & $ \Delta M/r_p^2$
 \hline 
 \end{tabular}
 \end{center}
-The angular separation between the SN and the pulsar, $r_p\sin\theta$, should be measurable quite accurately on its own. The depth difference, $r_p\cos\theta$, is rather difficult; the actual total energy released in neutrino shell is only estimated from theory. The observation of this two-stage acceleration change then allows us to determine those two values, if the pulsar is sensitive enough to detect an acceleration change of order $\Delta M/r_p^2$.
+
+If the SN is directly visible, then the angular separation to a nearby pulsar, $r_p\sin\theta$, should be measured quite accurately on its own. The depth difference, $r_p\cos\theta$, may have a large error bar; the actual total energy released in neutrino shell is only estimated from theory. The observation of this two-stage acceleration change then allows us to determine those two values, if the pulsar is sensitive enough to detect an acceleration change of order $\Delta M/r_p^2$.
 
 In practice, measuring $\dot{w_e}$ is actually letting it first build up a frequency change, and then to build up again in the phase change. That means within the duration of the middle stage, the arrival time of the pulse changes by 
 \begin{equation}
 \delta T_{\rm arrival} \sim \Delta\left(\frac{\dot{w_e}}{w_e}\right)(\Delta t)^2
 \sim \Delta M~.
 \end{equation}
-Interestingly, the $1/r_p^2$ in gravitational force exactly cancels with the accumulation time $(\Delta t)^2$. That means independent of $r_p$, a pulsar can detect this change as long as the timing accuracy is better than the light-crossing time of the effective Schwarzschild radius of the neutrino shell\footnote{In practice, we still want the pulsar to be somewhere close to the SN. Without that condition, we cannot be certain that there are no other comparable changes to acceleration during $\Delta t$.}. We can estimate $\Delta M\sim$ a fraction of solar mass $\sim10^{-6}$ seconds. $\delta T_{\rm arrival}$ for a stable, millisecond pulsar is quite comparable, if not already better\cite{PulsarTiming}. Furthermore, the above estimation assumes that we measure the pulse only in the beginning and the end of the duration $\Delta t$. In practice, one of course repeat $N$ measurements during the process, which increases the accuracy by another factor of $\sqrt{N}$. It is then quite likely that such effect will be measurable.
+Interestingly, the $1/r_p^2$ in gravitational force exactly cancels with the accumulation time $(\Delta t)^2$. That means independent of $r_p$, a pulsar can detect this change as long as the timing accuracy is better than the light-crossing time of the effective Schwarzschild radius of the neutrino shell\footnote{In practice, we still want the pulsar to be somewhere close to the SN. Without that condition, we cannot be certain that there are no other comparable changes to acceleration during $\Delta t$.}. We can estimate $\Delta M\sim$ a fraction of solar mass $\sim10^{-6}$ seconds. $\delta T_{\rm arrival}$ for a stable, millisecond pulsar is already better \cite{PulsarTiming}\footnote{Our conservative estimation assumes only two measurements: in the beginning and the end of the duration $\Delta t$. In practice, one of course repeat $N$ measurements during the process, which increases the accuracy by another factor of $\sqrt{N}$.}.
 
-The Square Kilometer Array\cite{SKA} will find thousands of millisecond pulsars with typical distance of a few hundreds of lightyears between each other. Given a few SN explosion per century\cite{SNrate06}, optimistically, the observation of such event will come in a century or two.
+With the forecast of thousands of millisecond pulsars to be found by the Square Kilometer Array \cite{SKA}, a new SN effectively sits within a timing-grid. At the instant the SNe is detected at earth, even if only from direct neutrino detection, we know that all pulsar timing periodic derivatives change, and by different amounts depending on their distances. The closest or the best timed pulsars may detect such effect within a decade or two, and others gradually follow. Such a joint timing can triangulate the location of the SN and prepare us to detect the second acceleration change. Given a few SNe per century\cite{SNrate06}, an actual detection is in the forewseeable future.
+
+% The effect receives equal logarthmic contributions in detectability as a distance of the pulsar from the SN: in a disk population, the number of pulsars increases as the square of the distance from the SN, the effect decreases as the distance, and the sensitivity increases with the square root of the number of pulsars.  Pulsars near the line of sight will increasingly show the second acceleration change, the soonest typically after a year, for the pulsar one galactic scale length from the SN along our line of sight.  THe timing impact will be weak due to its distance from the SN, and waiting for a decade increases both the acceleration sensitivity due to the longer time baseline, and increases the likelihood of finding a pulsar closer to the SNe. 
 
 \acknowledgments
 
@@ -237,5 +238,4 @@ We thank xxx useful discussions. We are supported in part by xxx fundings.
 
 
 \end{document}
-
 
