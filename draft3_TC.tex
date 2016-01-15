@@ -1,4 +1,4 @@
-\documentclass[aps,showpacs,twocolumn,floats,prd,superscriptaddress,nofootinbib]{revtex4-1} 
+\documentclass[aps,showpacs,twocolumn,floats,prd,superscriptaddress,nofootinbib]{revtex4} 
 \usepackage{graphicx,amsmath,amssymb,amstext}
 \usepackage{amssymb,amsbsy,amsfonts,amsthm,color}
 
@@ -22,6 +22,7 @@
 \email{pen@cita.utoronto.ca}
 \affiliation{Canadian Institute of Theoretical Astrophysics, 60 St George St, Toronto, ON M5S 3H8, Canada.}
 \affiliation{Canadian Institute for Advanced Research, CIFAR program in Gravitation and Cosmology.}
+\affiliation{Perimeter Institute of Theoretical Physics, 31 Caroline Street North, Waterloo, ON N2L 2Y5, Canada.}
 
 \author{I-Sheng Yang}
 \email{isheng.yang@gmail.com}
@@ -29,7 +30,7 @@
 \affiliation{Perimeter Institute of Theoretical Physics, 31 Caroline Street North, Waterloo, ON N2L 2Y5, Canada.}
 
 \begin{abstract}
-We show that when a supernova explodes, a nearby pulsar goes through two changes in the time-derivative of its period. A stable, millisecond pulsar can allow us to measure such effect. This may improve our measurement on the total energy released in neutrinos and also the actual orientation of the supernova-pulsar system. A joint timing of a few pulsars can even triangulate the location of a hidden supernova.
+We show that when a supernova explodes, a nearby pulsar goes through two changes in the time-derivative of its observed period. A stable, millisecond pulsar can allow us to measure such effect. This may improve our measurement on the total energy released in neutrinos and also the orientation of the supernova-pulsar system. 
 \end{abstract}
 
 \maketitle
@@ -38,7 +39,7 @@ We show that when a supernova explodes, a nearby pulsar goes through two changes
 
 When a supernova (SN) explodes, it releases a fraction of solar-masses energy in shell of relativistic neutrinos. Although neutrinos barely interact with other matter directly, relocating such amount of mass inevitably affects the background geometry. If an accurate timing apparatus is nearby, such as a millisecond pulsar, then one can hope to observe a measurable effect. The purpose of this paper is to calculate such effect and provide a better idea of how useful such an observation can be.
 
-Since this neutrino shell is very thin---passing through either the Earth or the pulsar in a time much shorter than the typical duration for timing observations---we can treat it as a co-dimension-1 delta-function and describe the spacetime by Israel Junction Conditions (IJC) \cite{Isr66}. Furthermore, we will treat both the neutrinos and the pulsar signal as propagating at the speed of light. In reality that is not exactly true, with photons moving even slower than neutrinos. Nevertheless, the time delay is again much shorter compared to the duration of timing observations, thus it does not invalidate our result. The analytical model then becomes extremely simple, since it involves nothing but tracking geodesics\cite{BouFre07,JohYan10}.
+Since this neutrino shell is very thin---passing through either the Earth or the pulsar in a time much shorter than the typical duration for timing observations---we can treat it as a co-dimension-1 delta-function and describe the spacetime by Israel Junction Conditions (IJC) \cite{Isr66}. Furthermore, we will treat both the neutrinos and the pulsar signal as propagating at the speed of light. In reality that is not exactly true, with photons moving even slower than neutrinos. Nevertheless, the time delay is again much shorter compared to the duration of timing observations, thus it does not invalidate our result. The analytical model then becomes quite simple, since it involves just tracking geodesics across thin shells \cite{BouFre07,JohYan10}.
 
 In Sec.\ref{sec-JC}, we present the general setup of geometry with junctions. In Sec.\ref{sec-1+1} we study the scenario in which the SN and the pulsar are exactly aligned, as shown in Fig.\ref{fig:1}. On one hand, this is the simplest scenario as it reduces to a (1+1) dimensional problem. On the other hand, this might have the strongest observable effect. After all, the signals that arrive right before and right after the neutrino shell travelled in two dramatically different geometries. We show that there is no sudden change in the pulse period.
 % More precisely, the observed pulsar period cannot jump across the neutrino shell. In hindsight, these should not be too surprising, as they follow from the physical continuation of spacetime. Although the metrics on either side of the neutrino shell looks very different, the physical distance between two points, and the relative velocity between two points, cannot change discontinuously. The first fact follows directly from the first of IJC, while the second fact requires the notion of continuing a geodesic across a junction , for which we will provide more explicit details.
@@ -109,9 +110,9 @@ w_e = -e_\mu k^\mu(w^i_\infty, r_p)_{\rm i} =
 
 \subsection{Leading order expansion and physical intuition}
 
-Our conclusion above is exactly correct in full nonlinear general relativity, although it might be surprising to some readers. Here we will expand the two steps separately to leading order for better physical intuitions. First of all, it is quite realistic to set $r_e \gg r_p$ and treat it as being infinite, so the only physical change happens in the pulsar.
+Our conclusion above is exactly correct in full nonlinear general relativity, although it might be surprising to some readers. Here we will expand the two steps separately to leading order for better physical intuitions. First of all, it is quite realistic to set $r_e \gg r_p$ and treat it as being infinite, so the only physical change happens at the pulsar.
 
-Instead of using Eq.~(\ref{eq-JuncPuls}), if we had assumed that the pulsar is at rest in both geometries before and after the neutrino shell crosses, then we would have derived a frequency ratio of $[1-\Delta M/r_p]$ between these two photons\footnote{In fact, any non-relativistic initial velocity leads to this result.}. This would have reflected the fact that they climbed out of two different gravitational potentials, but it cannot be the full story. If the pulsar was at rest before the neutrino shell hits it, Eq.~(\ref{eq-JuncPuls}) demands that it picks up a velocity in the new coordinate
+Instead of using Eq.~(\ref{eq-JuncPuls}), if we had assumed that the pulsar is at rest in both coordinates before and after the neutrino shell crosses, then we would have derived a frequency ratio of $[1-\Delta M/r_p]$ between these two photons\footnote{In fact, any non-relativistic initial velocity leads to this result.}. This would have reflected the fact that they climbed out of two different gravitational potentials, but it cannot be the full story. If the pulsar was at rest before the neutrino shell hits it, Eq.~(\ref{eq-JuncPuls}) demands that it picks up a velocity in the new coordinate
  \begin{eqnarray}
 p_\mu &\equiv& \left( \left( 1 - \frac{2M_i}{r} \right)^{-\frac{1}{2}}, 0, 0,0\right)_{\rm i} 
 \label{eq-PulsarRest} \\ \nonumber  &\equiv&	
@@ -132,7 +133,7 @@ Let us continue the approximation in the previous section and take a time deriva
 \frac{\dot{w_e}}{w_e} = -\dot{v} = -\frac{M}{r_p^2}~.
 \label{eq-AccChange}
 \end{equation}
-When the pulsar crosses the neutrino shell, the enclosed mass certainly changes from $M_i$ to $M_f$, and $\dot{w_e}$ indeed changes suddenly. It is not a suddenly observable change, since the change in $w_e$ needs some time to build up before it is observable. Nevertheless, this is the leading order observable for us.
+When the pulsar crosses the neutrino shell, the enclosed mass certainly changes from $M_i$ to $M_f$, and $\dot{w_e}$ indeed changes suddenly. It is not a suddenly observable change, since it needs some time to build up the change in $w_e$ and then in the phase before it is observable. Nevertheless, this is the leading order observable for us.
 
 \section{General Cases}
 \label{sec-3d}
@@ -193,54 +194,44 @@ Right after $t_2$, a photon goes from the pulsar to the earth entirely in the ``
 \end{eqnarray}
 Note that this $p_\mu$ only includes the change due to crossing the shell, without the result of actual acceleration from the SN's gravity. Since the later is already taken into account in the chart of Sec.\ref{sec-3d}, we are indeed calculating the extra contribution to
 \begin{equation}
-\frac{\dot{w_e}}{w_e}\bigg|_{\rm extra \ from \ t_1 \ to \ t_2} = \frac{(w_e)_{t_2}-(w_e)_{t_1}}{\Delta t} = \frac{\Delta M}{r_p^2}~.
+\frac{\dot{w_e}}{w_e}\bigg|_{\rm extra \ from \ t_1 \ to \ t_2} = \frac{(w_e)_{t_2}-(w_e)_{t_1}}{w_e\Delta t} = \frac{\Delta M}{r_p^2}~.
 \end{equation}
 Interestingly, there is no $\theta$ dependence here.
 
 \section{Observational Practicality}
 \label{sec-obs}
 
-The observed value of $(\dot{w_e}/w_e)$ cannot be exactly what we calculated, because in practice, there are many other contributions to the acceleration. For example, they cna be both in the galaxy center which has a relative acceleration to our spiral arm. However, if the pulsar is close enough to the SN, then we can be pretty certain that in the time scale comparable to $\Delta t$, the SN is the dominant cause of acceleration change. % Afterall, there are rarely any event more violent than a nearby SN explosion. And if there is, we probably would have noticed.
+The observed value of $(\dot{w_e}/w_e)$ cannot be exactly what we calculated, because in practice, there are many other contributions to the acceleration. For example, both the SN and the pulsar may be in the galactic center which has a relative acceleration to our spiral arm. However, if the pulsar is close enough to the SN, then we can be pretty certain that in the time scale comparable to $\Delta t$, the SN is the dominant cause of acceleration change. % Afterall, there are rarely any event more violent than a nearby SN explosion. And if there is, we probably would have noticed.
 
-That means, if we observe three different values of $(\dot{w_e}/w_e)$ in the three stages, we can subtract the value in the first stage and get two independent data corresponding to the effect we calculated.
+That means, if we observe three different values of $(\dot{w_e}/w_e)$ in the three stages, then the two sharp changes of acceleration should correspond to the effect we calculated.
 \begin{center}
 \begin{tabular}{| c | c | c |} 
 \hline
-                & $t_1<t<t_2$ & $t_2<t$ \\ 
+                & at $t_1$ & at $t_2$ \\ 
        \hline 
 $\Delta(\dot{w_e}/w_e)$ & $ \Delta M/r_p^2$ 
-& $(\Delta M/r_p^2)\cos\theta$   \\ 
+& $(\Delta M/r_p^2)(\cos\theta-1)$   \\ 
 \hline 
 \end{tabular}
 \end{center}
+The two changes always have opposite signs. The net change in the end is always $(\Delta M/r_p^2)\cos\theta$, which is the projected change of acceleration. 
 
 If the SN is directly visible, then the angular separation to a nearby pulsar, $r_p\sin\theta$, should be measured quite accurately on its own. The depth difference, $r_p\cos\theta$, may have a large error bar; the actual total energy released in neutrino shell is only estimated from theory. The observation of this two-stage acceleration change then allows us to determine those two values, if the pulsar is sensitive enough to detect an acceleration change of order $\Delta M/r_p^2$.
 
-In practice, measuring $\dot{w_e}$ is actually letting it first build up a frequency change, and then to build up again in the phase change. That means within the duration of the middle stage, the arrival time of the pulse changes by 
+In practice $\dot{w_e}$ is measured by allowing the signal to build up a frequency change, and then to build up again in the phase change. That means within the duration of the middle stage, the arrival time of the pulse changes by 
 \begin{equation}
 \delta T_{\rm arrival} \sim \Delta\left(\frac{\dot{w_e}}{w_e}\right)(\Delta t)^2
 \sim \Delta M~.
 \end{equation}
-Interestingly, the $1/r_p^2$ in gravitational force exactly cancels with the accumulation time $(\Delta t)^2$. That means independent of $r_p$, a pulsar can detect this change as long as the timing accuracy is better than the light-crossing time of the effective Schwarzschild radius of the neutrino shell\footnote{In practice, we still want the pulsar to be somewhere close to the SN. Without that condition, we cannot be certain that there are no other comparable changes to acceleration during $\Delta t$.}. We can estimate $\Delta M\sim$ a fraction of solar mass $\sim10^{-6}$ seconds. $\delta T_{\rm arrival}$ for a stable, millisecond pulsar is already better \cite{PulsarTiming}\footnote{Our conservative estimation assumes only two measurements: in the beginning and the end of the duration $\Delta t$. In practice, one of course repeat $N$ measurements during the process, which increases the accuracy by another factor of $\sqrt{N}$.}.
-<<<<<<< HEAD
+Interestingly, the $1/r_p^2$ in gravitational force exactly cancels with the accumulation time $(\Delta t)^2$. That means independent of $r_p$, a pulsar can detect this change as long as the timing accuracy is better than the light-crossing time of the effective Schwarzschild radius of the neutrino shell\footnote{In practice, we still want the pulsar to be somewhere close to the SN. Without that condition, we cannot be certain that there are no other comparable changes to acceleration during $\Delta t$.}. We can estimate $\Delta M\sim$ a fraction of solar mass $\sim10^{-6}$ seconds. The timing accuracy for a stable, millisecond pulsar is already better \cite{PulsarTiming}\footnote{Our conservative estimation assumes only two measurements: in the beginning and the end of the duration $\Delta t$. In practice, one has $N$ measurements during the process, which increases the accuracy by another factor of $\sqrt{N}$.}.
 
-With the forecast of thousands of millisecond pulsars to be found by the Square Kilometer Array \cite{SKA}, a new SN effectively sits within a timing-grid. At the instant the SNe is detected at earth, even if only from direct neutrino detection, we know that all pulsar timing periodic derivatives change, and by different amounts depending on their distances. The closest or the best timed pulsars may detect such effect within a decade or two, and others gradually follow. Such a joint timing can triangulate the location of the SN and prepare us to detect the second acceleration change. Given a few SNe per century\cite{SNrate06}, an actual detection is in the forewseeable future.
-
-% The effect receives equal logarthmic contributions in detectability as a distance of the pulsar from the SN: in a disk population, the number of pulsars increases as the square of the distance from the SN, the effect decreases as the distance, and the sensitivity increases with the square root of the number of pulsars.  Pulsars near the line of sight will increasingly show the second acceleration change, the soonest typically after a year, for the pulsar one galactic scale length from the SN along our line of sight.  THe timing impact will be weak due to its distance from the SN, and waiting for a decade increases both the acceleration sensitivity due to the longer time baseline, and increases the likelihood of finding a pulsar closer to the SNe. 
-
-
-
- 
-=======
-
-With the forecast of thousands of millisecond pulsars to be found by the Square Kilometer Array \cite{SKA}, a new SN effectively sits within a timing-grid. At the instant the SNe is detected at earth, even if only from direct neutrino detection, we know that all pulsar timing periodic derivatives change, and by different amounts depending on their distances. The closest or the best timed pulsars may detect such effect within a decade or two, and others gradually follow. Such a joint timing can triangulate the location of the SN and prepare us to detect the second acceleration change. Given a few SNe per century\cite{SNrate06}, an actual detection is in the forewseeable future.
+With the forecast of thousands of millisecond pulsars to be found by the Square Kilometer Array \cite{SKA}, a new SN effectively sits within a timing-grid. At the instant the SNe is detected at earth, even if only from direct neutrino detection, we know that the derivatives of all pulsars' periods change, and by different amounts depending on their distances. The closest or the best timed pulsars may detect the first change within a decade or two. The second change will also happen around the same time scale for those with small $\theta$. Given a few SNe per century \cite{SNrate06}, a signature detection of this two-consecutive-acceleration-shifts is possible in the foreseeable future.
 
 % The effect receives equal logarthmic contributions in detectability as a distance of the pulsar from the SN: in a disk population, the number of pulsars increases as the square of the distance from the SN, the effect decreases as the distance, and the sensitivity increases with the square root of the number of pulsars.  Pulsars near the line of sight will increasingly show the second acceleration change, the soonest typically after a year, for the pulsar one galactic scale length from the SN along our line of sight.  THe timing impact will be weak due to its distance from the SN, and waiting for a decade increases both the acceleration sensitivity due to the longer time baseline, and increases the likelihood of finding a pulsar closer to the SNe. 
->>>>>>> origin/my_dropbox
 
 \acknowledgments
 
-We thank xxx useful discussions. We are supported in part by xxx fundings.
+We thank John Antoniadis for inspiring discussions. This work is supported by the Canadian Government through the Canadian Institute for Advance Research and Industry Canada, and by Province of Ontario through the Ministry of Research and Innovation.
 
 \appendix
 
@@ -249,4 +240,3 @@ We thank xxx useful discussions. We are supported in part by xxx fundings.
 
 
 \end{document}
-
