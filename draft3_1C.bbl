@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{7}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -30,14 +30,6 @@
   \bibinfo{author}{\bibfnamefont{I.-S.} \bibnamefont{Yang}},
   \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D82}},
   \bibinfo{pages}{065023} (\bibinfo{year}{2010}), \eprint{1005.3506}.
-
-\bibitem[{\citenamefont{Olum et~al.}(2013)\citenamefont{Olum, Pierce, and
-  Siemens}}]{OluPie13}
-\bibinfo{author}{\bibfnamefont{K.~D.} \bibnamefont{Olum}},
-  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Pierce}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{Siemens}},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D88}},
-  \bibinfo{pages}{043005} (\bibinfo{year}{2013}), \eprint{1305.3881}.
 
 \bibitem[{\citenamefont{Misner et~al.}(1973)\citenamefont{Misner, Thorne, and
   Wheeler}}]{MTW}
