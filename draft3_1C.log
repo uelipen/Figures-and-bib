@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 APR 2016 14:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 APR 2016 14:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -329,62 +329,62 @@ File: Figures/Image5.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/Image5.pdf used on input line 155.
 (pdftex.def)             Requested size: 238.49284pt x 184.28992pt.
 
-[4 <./Figures/Image4.pdf> <./Figures/Image5.pdf>] [5]
-<Figures/8x.pdf, id=103, 451.6875pt x 301.125pt>
+[4 <./Figures/Image4.pdf>] [5 <./Figures/Image5.pdf>]
+<Figures/8x.pdf, id=101, 451.6875pt x 301.125pt>
 File: Figures/8x.pdf Graphic file (type pdf)
  <use Figures/8x.pdf>
-Package pdftex.def Info: Figures/8x.pdf used on input line 210.
+Package pdftex.def Info: Figures/8x.pdf used on input line 216.
 (pdftex.def)             Requested size: 153.00156pt x 101.99977pt.
 
-<Figures/8v.pdf, id=104, 451.6875pt x 304.13625pt>
+<Figures/8v.pdf, id=102, 451.6875pt x 304.13625pt>
 File: Figures/8v.pdf Graphic file (type pdf)
  <use Figures/8v.pdf>
-Package pdftex.def Info: Figures/8v.pdf used on input line 211.
+Package pdftex.def Info: Figures/8v.pdf used on input line 217.
 (pdftex.def)             Requested size: 153.00156pt x 103.01976pt.
 
-<Figures/8a.pdf, id=105, 451.6875pt x 298.11375pt>
+<Figures/8a.pdf, id=103, 451.6875pt x 298.11375pt>
 File: Figures/8a.pdf Graphic file (type pdf)
  <use Figures/8a.pdf>
-Package pdftex.def Info: Figures/8a.pdf used on input line 212.
+Package pdftex.def Info: Figures/8a.pdf used on input line 218.
 (pdftex.def)             Requested size: 153.00156pt x 100.97977pt.
 
-<Figures/5x.pdf, id=106, 451.6875pt x 296.10625pt>
+<Figures/5x.pdf, id=104, 451.6875pt x 296.10625pt>
 File: Figures/5x.pdf Graphic file (type pdf)
  <use Figures/5x.pdf>
-Package pdftex.def Info: Figures/5x.pdf used on input line 213.
+Package pdftex.def Info: Figures/5x.pdf used on input line 219.
 (pdftex.def)             Requested size: 153.00156pt x 100.29977pt.
 
-<Figures/5v.pdf, id=107, 451.6875pt x 304.13625pt>
+<Figures/5v.pdf, id=105, 451.6875pt x 304.13625pt>
 File: Figures/5v.pdf Graphic file (type pdf)
  <use Figures/5v.pdf>
-Package pdftex.def Info: Figures/5v.pdf used on input line 214.
+Package pdftex.def Info: Figures/5v.pdf used on input line 220.
 (pdftex.def)             Requested size: 153.00156pt x 103.01976pt.
 
-<Figures/5a.pdf, id=108, 451.6875pt x 301.125pt>
+<Figures/5a.pdf, id=106, 451.6875pt x 301.125pt>
 File: Figures/5a.pdf Graphic file (type pdf)
  <use Figures/5a.pdf>
-Package pdftex.def Info: Figures/5a.pdf used on input line 215.
+Package pdftex.def Info: Figures/5a.pdf used on input line 221.
 (pdftex.def)             Requested size: 153.00156pt x 101.99977pt.
 
-<Figures/3x.pdf, id=109, 451.6875pt x 301.125pt>
+<Figures/3x.pdf, id=107, 451.6875pt x 301.125pt>
 File: Figures/3x.pdf Graphic file (type pdf)
  <use Figures/3x.pdf>
-Package pdftex.def Info: Figures/3x.pdf used on input line 216.
+Package pdftex.def Info: Figures/3x.pdf used on input line 222.
 (pdftex.def)             Requested size: 153.00156pt x 101.99977pt.
 
-<Figures/3v.pdf, id=110, 451.6875pt x 304.13625pt>
+<Figures/3v.pdf, id=108, 451.6875pt x 304.13625pt>
 File: Figures/3v.pdf Graphic file (type pdf)
  <use Figures/3v.pdf>
-Package pdftex.def Info: Figures/3v.pdf used on input line 217.
+Package pdftex.def Info: Figures/3v.pdf used on input line 223.
 (pdftex.def)             Requested size: 153.00156pt x 103.01976pt.
 
-<Figures/3a.pdf, id=111, 451.6875pt x 301.125pt>
+<Figures/3a.pdf, id=109, 451.6875pt x 301.125pt>
 File: Figures/3a.pdf Graphic file (type pdf)
  <use Figures/3a.pdf>
-Package pdftex.def Info: Figures/3a.pdf used on input line 218.
+Package pdftex.def Info: Figures/3a.pdf used on input line 224.
 (pdftex.def)             Requested size: 153.00156pt x 101.99977pt.
 
-(./draft3_1C.bbl [6 <./Figures/8x.pdf> <./Figures/8v.pdf
+(./draft3_1C.bbl) [6] [7 <./Figures/8x.pdf> <./Figures/8v.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./Figures/8v.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
@@ -416,38 +416,38 @@ ltiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./Figures/3a.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
->]) [7] (./draft3_1C.aux) ) 
+>] (./draft3_1C.aux) ) 
 Here is how much of TeX's memory you used:
  4366 strings out of 493089
- 57158 string characters out of 6134842
- 140243 words of memory out of 5000000
+ 57157 string characters out of 6134842
+ 137243 words of memory out of 5000000
  7769 multiletter control sequences out of 15000+600000
  11759 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,11n,26p,1100b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
-fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on draft3_1C.pdf (7 pages, 494294 bytes).
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on draft3_1C.pdf (7 pages, 496988 bytes).
 PDF statistics:
  450 PDF objects out of 1000 (max. 8388607)
  312 compressed objects within 4 object streams
