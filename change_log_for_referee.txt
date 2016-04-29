@@ -1,0 +1,17 @@
+1. In Section II, we update Eq.(4) to emphasize that $k^\mu$ is a function of the asymptotic frequency and the radial coordinate. Thus the logic is more obvious when we later use it.
+
+2. In Section III, we added more explicit definition of our variables, and updated Figure 1 and its caption to better represent their role in the geometry.
+
+Note to Darsh: Please update the Figure.
+
+3. In Section III, we corrected a typo if subscript in Eq.(8). It correctly represents the frequencies seen on earth now.
+
+4. In Section IV, we update the Figure for a more accurate definition of $r_p$ and $r_e$.
+
+Note to Darsh: Please update the Figure.
+
+5. Through out the paper, we remove superfluous equation numbers.
+
+6. We split Sec.V into two subsections. The first subsection describes the strength and shape of our effect as measured by the change in time-of-arrival of pulsar’s signal. The second subsection discusses how likely to have a good candidate for our effect to happen and be observed.
+
+7. In Sec.V.A, We enhance the connection of this subsection both to the previous one where we derived our results, and to Figure 4 where we present a few examples for difference values of $\theta$.
